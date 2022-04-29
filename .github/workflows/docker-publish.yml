@@ -34,15 +34,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Docker meta
-        id: meta
-        uses: docker/metadata-action@v3
-        with:
-          images: |
-            ghcr.io/marte26/caddy-docker
-          tags: |
-            type=ref,event=pull_request
-
       # Install the cosign tool except on PR
       # https://github.com/sigstore/cosign-installer
       - name: Install cosign
@@ -70,9 +61,10 @@ jobs:
       # https://github.com/docker/metadata-action
       - name: Extract Docker metadata
         id: meta
-        uses: docker/metadata-action@47c365107cb34e788d99cf3d89acf424b505b3e8
+        uses: docker/metadata-action@v3
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: type=ref,event=pull_request
 
       # Build and push Docker image with Buildx (don't push on PR)
       # https://github.com/docker/build-push-action
