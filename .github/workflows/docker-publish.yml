@@ -18,7 +18,7 @@ env:
   # github.repository as <account>/<repo>
   IMAGE_NAME: ${{ github.repository }}
   # Caddy version
-  VERSION: 2.5.2
+  VERSION: 2.6.0
 
 jobs:
   build:
