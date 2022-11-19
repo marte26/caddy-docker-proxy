@@ -19,3 +19,5 @@ steps:
     tags:
       - latest
       - ${CADDY_VERSION}
+    build_args:
+      - CADDY_VERSION=$CADDY_VERSION
