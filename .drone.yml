@@ -1,0 +1,22 @@
+kind: pipeline
+type: docker
+name: default
+
+environment:
+  CADDY_VERSION: v2.6.2
+
+steps:
+- name: build docker file and publish
+  image: plugins/docker
+  pull: never
+  settings:
+    repo: $DRONE_REPO
+    username:
+      from_secret: docker_username
+    password:
+      from_secret: docker_password
+    tags:
+      - latest
+      - ${CADDY_VERSION}
+    build_args:
+      - ${CADDY_VERSION}
