@@ -11,7 +11,7 @@ steps:
   pull: if-not-exists
   settings:
     registry: git.badsl.nl
-    repo: $DRONE_REPO
+    repo: ${DRONE_REPO}
     username:
       from_secret: docker_username
     password:
