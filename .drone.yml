@@ -8,6 +8,7 @@ environment:
 steps:
 - name: build docker file and publish
   image: plugins/docker
+  pull: if-not-exists
   settings:
     repo: $DRONE_REPO
     username:
