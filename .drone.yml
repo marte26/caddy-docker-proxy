@@ -15,6 +15,6 @@ steps:
       from_secret: docker_password
     tags:
       - latest
-      - 2.6.2
+      - 2.6.4
     build_args:
-      - CADDY_VERSION=2.6.2
+      - CADDY_VERSION=2.6.4
