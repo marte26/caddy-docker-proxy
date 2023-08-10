@@ -1,11 +1,9 @@
 FROM golang:1.20-alpine as build
 
-WORKDIR /src
+WORKDIR /
 RUN CGO_ENABLED=0 go build -ldflags "-s -w" -o /caddy
 
 FROM gcr.io/distroless/static AS final
-
-WORKDIR /
 
 LABEL org.opencontainers.image.version=v2.7.3
 LABEL org.opencontainers.image.title=Caddy
