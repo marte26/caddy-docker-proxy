@@ -24,6 +24,8 @@ EXPOSE 80
 EXPOSE 443
 EXPOSE 443/udp
 
+USER nonroot:nonroot
+
 COPY --from=build --chown=nonroot:nonroot /caddy /caddy
 
 CMD ["/caddy", "run", "--config", "/etc/caddy/Caddyfile", "--adapter", "caddyfile"]
