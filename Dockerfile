@@ -6,6 +6,8 @@ RUN go mod download
 COPY *.go ./
 RUN CGO_ENABLED=0 go build -ldflags "-s -w" -o /caddy
 
+RUN mkdir /emptydir
+
 FROM gcr.io/distroless/static AS final
 
 LABEL org.opencontainers.image.version=v2.7.3
@@ -26,6 +28,8 @@ EXPOSE 443/udp
 
 USER nonroot:nonroot
 
-COPY --from=build --chown=nonroot:nonroot /caddy /caddy
+COPY --from=build --chown=nonroot:nonroot --chmod=700 /emptydir /config
+COPY --from=build --chown=nonroot:nonroot --chmod=700 /emptydir /data
+COPY --from=build --chown=nonroot:nonroot --chmod=755 /caddy /caddy
 
 CMD ["/caddy", "run", "--config", "/etc/caddy/Caddyfile", "--adapter", "caddyfile"]
