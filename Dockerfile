@@ -32,4 +32,4 @@ COPY --from=build --chown=nonroot:nonroot --chmod=700 /emptydir /config
 COPY --from=build --chown=nonroot:nonroot --chmod=700 /emptydir /data
 COPY --from=build --chown=nonroot:nonroot --chmod=755 /caddy /caddy
 
-CMD ["/caddy", "run", "--config", "/etc/caddy/Caddyfile", "--adapter", "caddyfile"]
+CMD ["/caddy", "docker-proxy"]
