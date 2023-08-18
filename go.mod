@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/caddy-dns/cloudflare v0.0.0-20230807034102-74f004e1c1ab
 	github.com/caddyserver/caddy/v2 v2.7.4
-	github.com/lucaslorentz/caddy-docker-proxy/v2 v2.8.5
+	github.com/lucaslorentz/caddy-docker-proxy/v2 v2.8.6
 )
 
 require (
