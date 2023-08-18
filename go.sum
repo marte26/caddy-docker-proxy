@@ -702,6 +702,8 @@ github.com/lightstep/lightstep-tracer-common/golang/gogo v0.0.0-20190605223551-b
 github.com/lightstep/lightstep-tracer-go v0.18.1/go.mod h1:jlF1pusYV4pidLvZ+XD0UBX0ZE6WURAspgAczcDHrL4=
 github.com/lucaslorentz/caddy-docker-proxy/v2 v2.8.5 h1:/qaKS/TmTdY5O9LupdHZDuBu5lDDeTJkb0Zbgp+UWbA=
 github.com/lucaslorentz/caddy-docker-proxy/v2 v2.8.5/go.mod h1:2lxHiqA8bo2YIB+FDrymorxvfXNlh8CJsJvx/VUn6KQ=
+github.com/lucaslorentz/caddy-docker-proxy/v2 v2.8.6 h1:kA02Y/AoK9IpXd8kLrastlnG1571whxp0Ee0/rBG/F4=
+github.com/lucaslorentz/caddy-docker-proxy/v2 v2.8.6/go.mod h1:ZRXEgY1ceq/Cgu+6v2Dau7PagDn4+sqcDT5aC4F1uuA=
 github.com/lyft/protoc-gen-validate v0.0.13/go.mod h1:XbGvPuh87YZc5TdIa2/I4pLk0QoUACkjt2znoq26NVQ=
 github.com/magiconair/properties v1.8.0/go.mod h1:PppfXfuXeibc/6YijjN8zIbojt8czPbwD3XqdrwzmxQ=
 github.com/magiconair/properties v1.8.1/go.mod h1:PppfXfuXeibc/6YijjN8zIbojt8czPbwD3XqdrwzmxQ=
