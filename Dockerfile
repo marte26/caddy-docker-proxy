@@ -6,8 +6,6 @@ RUN go mod download
 COPY *.go ./
 RUN CGO_ENABLED=0 go build -ldflags "-s -w" -o /caddy
 
-RUN mkdir /emptydir
-
 FROM gcr.io/distroless/static AS final
 
 LABEL org.opencontainers.image.version=v2.7.3
@@ -26,10 +24,6 @@ EXPOSE 80
 EXPOSE 443
 EXPOSE 443/udp
 
-USER nonroot:nonroot
-
-COPY --from=build --chown=nonroot:nonroot --chmod=700 /emptydir /config
-COPY --from=build --chown=nonroot:nonroot --chmod=700 /emptydir /data
-COPY --from=build --chown=nonroot:nonroot --chmod=755 /caddy /caddy
+COPY --from=build /caddy /caddy
 
 CMD ["/caddy", "docker-proxy"]
