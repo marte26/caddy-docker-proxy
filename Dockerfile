@@ -8,7 +8,7 @@ RUN CGO_ENABLED=0 go build -ldflags "-s -w" -o /caddy
 
 FROM gcr.io/distroless/static AS final
 
-LABEL org.opencontainers.image.version=v2.7.3
+LABEL org.opencontainers.image.version=v2.7.5
 LABEL org.opencontainers.image.title=Caddy
 LABEL org.opencontainers.image.description="a powerful, enterprise-ready, open source web server with automatic HTTPS written in Go"
 LABEL org.opencontainers.image.url=https://caddyserver.com
