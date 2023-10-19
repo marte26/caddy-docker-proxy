@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/caddy-dns/cloudflare v0.0.0-20230807034102-74f004e1c1ab
 	github.com/caddyserver/caddy/v2 v2.7.5
-	github.com/lucaslorentz/caddy-docker-proxy/v2 v2.8.6
+	github.com/lucaslorentz/caddy-docker-proxy/v2 v2.8.9
 )
 
 require (
@@ -33,7 +33,7 @@ require (
 	github.com/dgryski/go-farm v0.0.0-20200201041132-a6ae2369ad13 // indirect
 	github.com/dlclark/regexp2 v1.10.0 // indirect
 	github.com/docker/distribution v2.8.2+incompatible // indirect
-	github.com/docker/docker v24.0.5+incompatible // indirect
+	github.com/docker/docker v24.0.6+incompatible // indirect
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-units v0.5.0 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
@@ -138,7 +138,7 @@ require (
 	go.step.sm/linkedca v0.20.1 // indirect
 	go.uber.org/mock v0.3.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	go.uber.org/zap v1.25.0 // indirect
+	go.uber.org/zap v1.26.0 // indirect
 	golang.org/x/crypto v0.14.0 // indirect
 	golang.org/x/exp v0.0.0-20230310171629-522b1b587ee0 // indirect
 	golang.org/x/mod v0.11.0 // indirect
