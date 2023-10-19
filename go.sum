@@ -175,6 +175,8 @@ github.com/boltdb/bolt v1.3.1/go.mod h1:clJnj/oiGkjum5o1McbSZDSLxVThjynRyGBgiAx2
 github.com/caarlos0/ctrlc v1.0.0/go.mod h1:CdXpj4rmq0q/1Eb44M9zi2nKB0QraNKuRGYGrrHhcQw=
 github.com/caddy-dns/cloudflare v0.0.0-20230807034102-74f004e1c1ab h1:CE9nuQBTFOuUhpYUDsX7LZMAXlIxMdmfhagRR/e+HR0=
 github.com/caddy-dns/cloudflare v0.0.0-20230807034102-74f004e1c1ab/go.mod h1:xXBntHzAY5AFO+BcFyEDzABshxLx22zqLpKRxiV176k=
+github.com/caddy-dns/cloudflare v0.0.0-20231018222540-737bf003fe8a h1:TghfxV6nrEO53WZ5By5N/JnFA4ny5IQQddqHEeO1nzA=
+github.com/caddy-dns/cloudflare v0.0.0-20231018222540-737bf003fe8a/go.mod h1:iCoBSVv3UGrzTr4fKJuSGcOcg9D5i3+nOr7QTQgvK9s=
 github.com/caddyserver/caddy/v2 v2.7.3 h1:eMCNjOyMgB5A1KgOzT2dXKR4I0Va+YHCJYC8HHu+DP0=
 github.com/caddyserver/caddy/v2 v2.7.3/go.mod h1:y/xAo09/AF8hYpZ3UC0S4eSjJq+6CLQchjqhTMPqWdQ=
 github.com/caddyserver/caddy/v2 v2.7.4 h1:J8nisjdOxnYHXlorUKXY75Gr6iBfudfoGhrJ8t7/flI=
