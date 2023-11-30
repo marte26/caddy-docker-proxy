@@ -5,7 +5,7 @@ go 1.21
 require (
 	github.com/caddy-dns/cloudflare v0.0.0-20231018222540-737bf003fe8a
 	github.com/caddyserver/caddy/v2 v2.7.5
-	github.com/lucaslorentz/caddy-docker-proxy/v2 v2.8.9
+	github.com/lucaslorentz/caddy-docker-proxy/v2 v2.8.10
 )
 
 require (
@@ -33,7 +33,7 @@ require (
 	github.com/dgryski/go-farm v0.0.0-20200201041132-a6ae2369ad13 // indirect
 	github.com/dlclark/regexp2 v1.10.0 // indirect
 	github.com/docker/distribution v2.8.2+incompatible // indirect
-	github.com/docker/docker v24.0.6+incompatible // indirect
+	github.com/docker/docker v24.0.7+incompatible // indirect
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-units v0.5.0 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
@@ -70,6 +70,7 @@ require (
 	github.com/jackc/pgservicefile v0.0.0-20221227161230-091c0ba34f0a // indirect
 	github.com/jackc/pgtype v1.14.0 // indirect
 	github.com/jackc/pgx/v4 v4.18.0 // indirect
+	github.com/joho/godotenv v1.5.1 // indirect
 	github.com/klauspost/compress v1.17.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.5 // indirect
 	github.com/libdns/cloudflare v0.1.0 // indirect
