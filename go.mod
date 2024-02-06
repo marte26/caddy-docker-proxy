@@ -3,7 +3,7 @@ module caddy
 go 1.21
 
 require (
-	github.com/caddy-dns/cloudflare v0.0.0-20231220181002-8789126791ed
+	github.com/caddy-dns/cloudflare v0.0.0-20240206200437-2fa0c8ac916a
 	github.com/caddyserver/caddy/v2 v2.7.6
 	github.com/lucaslorentz/caddy-docker-proxy/v2 v2.8.10
 )
