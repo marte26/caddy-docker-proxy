@@ -15,7 +15,7 @@ LABEL org.opencontainers.image.url=https://caddyserver.com
 LABEL org.opencontainers.image.documentation=https://caddyserver.com/docs
 LABEL org.opencontainers.image.vendor="Light Code Labs"
 LABEL org.opencontainers.image.licenses=Apache-2.0
-LABEL org.opencontainers.image.source="https://git.badsl.nl/marte26/caddy-docker-proxy"
+LABEL org.opencontainers.image.source="https://github.com/marte26/caddy-docker-proxy"
 
 ENV XDG_CONFIG_HOME /config
 ENV XDG_DATA_HOME /data
