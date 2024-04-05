@@ -3,7 +3,7 @@ module caddy
 go 1.21
 
 require (
-	github.com/caddy-dns/cloudflare v0.0.0-20240206200437-2fa0c8ac916a
+	github.com/caddy-dns/cloudflare v0.0.0-20240405130444-44030f9306f4
 	github.com/caddyserver/caddy/v2 v2.7.6
 	github.com/lucaslorentz/caddy-docker-proxy/v2 v2.8.10
 )
@@ -73,8 +73,8 @@ require (
 	github.com/joho/godotenv v1.5.1 // indirect
 	github.com/klauspost/compress v1.17.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.5 // indirect
-	github.com/libdns/cloudflare v0.1.0 // indirect
-	github.com/libdns/libdns v0.2.1 // indirect
+	github.com/libdns/cloudflare v0.1.1 // indirect
+	github.com/libdns/libdns v0.2.2 // indirect
 	github.com/manifoldco/promptui v0.9.0 // indirect
 	github.com/mastercactapus/proxyprotocol v0.0.4 // indirect
 	github.com/mattn/go-colorable v0.1.8 // indirect
