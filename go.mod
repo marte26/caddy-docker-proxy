@@ -5,7 +5,7 @@ go 1.21.0
 toolchain go1.22.4
 
 require (
-	github.com/caddy-dns/cloudflare v0.0.0-20240405130444-44030f9306f4
+	github.com/caddy-dns/cloudflare v0.0.0-20240701205635-5ccabecdc6aa
 	github.com/caddyserver/caddy/v2 v2.8.4
 	github.com/lucaslorentz/caddy-docker-proxy/v2 v2.9.1
 )
