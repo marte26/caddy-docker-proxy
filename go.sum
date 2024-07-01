@@ -189,6 +189,8 @@ github.com/caddy-dns/cloudflare v0.0.0-20240206200437-2fa0c8ac916a h1:4jAOVUkPj/
 github.com/caddy-dns/cloudflare v0.0.0-20240206200437-2fa0c8ac916a/go.mod h1:l/IQuRAsmZhN7+qHC6912c9zCfN+lEiN2E4/uW9CfTg=
 github.com/caddy-dns/cloudflare v0.0.0-20240405130444-44030f9306f4 h1:Qoyce5QX9p7G5ySk2na3lHOHwp08TyeypR18DSLt3KE=
 github.com/caddy-dns/cloudflare v0.0.0-20240405130444-44030f9306f4/go.mod h1:Hg2SNb9171Ezb+8uoUXvCp2mF+gHgDXxEl6RMvCmBIk=
+github.com/caddy-dns/cloudflare v0.0.0-20240701205635-5ccabecdc6aa h1:7QoB0aaCW9VWhVwzCtvwkyxjDQ0aegTjW/pB4r6jjtw=
+github.com/caddy-dns/cloudflare v0.0.0-20240701205635-5ccabecdc6aa/go.mod h1:Bt+oIkWRO+S9Ap128dFQ35s8/XE3wwWC89XomSp0MbM=
 github.com/caddyserver/caddy/v2 v2.7.3 h1:eMCNjOyMgB5A1KgOzT2dXKR4I0Va+YHCJYC8HHu+DP0=
 github.com/caddyserver/caddy/v2 v2.7.3/go.mod h1:y/xAo09/AF8hYpZ3UC0S4eSjJq+6CLQchjqhTMPqWdQ=
 github.com/caddyserver/caddy/v2 v2.7.4 h1:J8nisjdOxnYHXlorUKXY75Gr6iBfudfoGhrJ8t7/flI=
