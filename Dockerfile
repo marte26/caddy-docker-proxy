@@ -1,4 +1,4 @@
-FROM golang:1.23.2-alpine as build
+FROM golang:1.23.2-alpine AS build
 
 WORKDIR /app
 COPY go.mod go.sum ./
@@ -17,8 +17,8 @@ LABEL org.opencontainers.image.vendor="Light Code Labs"
 LABEL org.opencontainers.image.licenses=Apache-2.0
 LABEL org.opencontainers.image.source="https://github.com/marte26/caddy-docker-proxy"
 
-ENV XDG_CONFIG_HOME /config
-ENV XDG_DATA_HOME /data
+ENV XDG_CONFIG_HOME=/config
+ENV XDG_DATA_HOME=/data
 
 EXPOSE 80
 EXPOSE 443
