@@ -4,21 +4,21 @@ on:
   push:
     branches: ["main"]
     paths:
-      - "Dockerfile"
+      - "Containerfile"
       - "go.mod"
       - "go.sum"
       - "main.go"
-      - ".github/workflows/docker.yml"
+      - ".github/workflows/container.yml"
     # Publish semver tags as releases.
     tags: ["v*.*.*"]
   pull_request:
     branches: ["main"]
     paths:
-      - "Dockerfile"
+      - "Containerfile"
       - "go.mod"
       - "go.sum"
       - "main.go"
-      - ".github/workflows/docker.yml"
+      - ".github/workflows/container.yml"
 
 env:
   REGISTRY: ghcr.io
@@ -69,7 +69,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: .
-          file: Dockerfile
+          file: Containerfile
           platforms: linux/amd64,linux/arm64
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
