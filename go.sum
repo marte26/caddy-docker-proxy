@@ -95,6 +95,8 @@ github.com/caddy-dns/cloudflare v0.0.0-20240703190432-89f16b99c18e h1:POEJXMmSOM
 github.com/caddy-dns/cloudflare v0.0.0-20240703190432-89f16b99c18e/go.mod h1:Osdy4yUAPsR2u4cN1+n/AQ1kleviUcOBZlNB0Dt28gI=
 github.com/caddy-dns/cloudflare v0.0.0-20250214163716-188b4850c0f2 h1:xsbs1fVM3S4bpUNS6WgDY2+Y8x89QnBxbQlYRXVuGms=
 github.com/caddy-dns/cloudflare v0.0.0-20250214163716-188b4850c0f2/go.mod h1:R1888jq72Vx2kW4kEaqwgZ2YlBkx9YK3g3w2n/PvZjI=
+github.com/caddy-dns/cloudflare v0.0.0-20250407183951-bbf79111721a h1:jDrPjTKIhPBxuMEItDpeeCc30tfrsH33qiy7uAODg/g=
+github.com/caddy-dns/cloudflare v0.0.0-20250407183951-bbf79111721a/go.mod h1:Tq/dOdF2I9LSAxk/oMQqtgB2vEmSybCaQ7sJrOB081M=
 github.com/caddyserver/caddy/v2 v2.9.0 h1:rteY8N18LsQn+2KVk6R10Vg/AlNsID1N/Ek9JLjm2yE=
 github.com/caddyserver/caddy/v2 v2.9.0/go.mod h1:BYELOc32ZTQRzPy1UGngt3A9nQMTDWDN68fBaoHf4tI=
 github.com/caddyserver/caddy/v2 v2.9.1 h1:OEYiZ7DbCzAWVb6TNEkjRcSCRGHVoZsJinoDR/n9oaY=
@@ -357,10 +359,14 @@ github.com/libdns/cloudflare v0.1.2-0.20240604123710-0549667a10ab h1:tX5H3Liz1eT
 github.com/libdns/cloudflare v0.1.2-0.20240604123710-0549667a10ab/go.mod h1:9VK91idpOjg6v7/WbjkEW49bSCxj00ALesIFDhJ8PBU=
 github.com/libdns/cloudflare v0.1.2 h1:RWUqBSojAFpg2O/jzS29DnkCP9oWQj3LmNEU8OulTLs=
 github.com/libdns/cloudflare v0.1.2/go.mod h1:XbvSCSMcxspwpSialM3bq0LsS3/Houy9WYxW8Ok8b6M=
+github.com/libdns/cloudflare v0.2.0 h1:2+/ilZsnWah2u30NCkIIf00xOu9T4x7SrQFJyj0NUD4=
+github.com/libdns/cloudflare v0.2.0/go.mod h1:Aq4IXdjalB6mD0ELvKqJiIGim8zSC6mlIshRPMOAb5w=
 github.com/libdns/libdns v0.2.2 h1:O6ws7bAfRPaBsgAYt8MDe2HcNBGC29hkZ9MX2eUSX3s=
 github.com/libdns/libdns v0.2.2/go.mod h1:4Bj9+5CQiNMVGf87wjX4CY3HQJypUHRuLvlsfsZqLWQ=
 github.com/libdns/libdns v0.2.3 h1:ba30K4ObwMGB/QTmqUxf3H4/GmUrCAIkMWejeGl12v8=
 github.com/libdns/libdns v0.2.3/go.mod h1:4Bj9+5CQiNMVGf87wjX4CY3HQJypUHRuLvlsfsZqLWQ=
+github.com/libdns/libdns v1.0.0-beta.1 h1:KIf4wLfsrEpXpZ3vmc/poM8zCATXT2klbdPe6hyOBjQ=
+github.com/libdns/libdns v1.0.0-beta.1/go.mod h1:4Bj9+5CQiNMVGf87wjX4CY3HQJypUHRuLvlsfsZqLWQ=
 github.com/lucaslorentz/caddy-docker-proxy/v2 v2.9.1 h1:8yXjzZQUyuBwsh79cVITd/4ul0OQ5alqPqgPy5gUFYE=
 github.com/lucaslorentz/caddy-docker-proxy/v2 v2.9.1/go.mod h1:42zVGCxUXYbr2716JAmHOQIMv+dH+Ijhvux1EXVUckA=
 github.com/lucaslorentz/caddy-docker-proxy/v2 v2.9.2 h1:SsjbryKCFLnjCptf85h11cd3lONI2BEo6XzCDzNtpuw=
