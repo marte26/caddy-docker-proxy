@@ -1,14 +1,12 @@
-FROM docker.io/golang:1.24.0-alpine AS build
+FROM docker.io/library/golang:1.24.2 AS build
 
 WORKDIR /app
-COPY go.mod go.sum ./
-RUN go mod download
-COPY *.go ./
-RUN CGO_ENABLED=0 go build -ldflags "-s -w" -o /caddy
+COPY go.mod go.sum main.go ./
+RUN go mod download && CGO_ENABLED=0 go build -ldflags "-s -w" -o /caddy
 
-FROM gcr.io/distroless/static AS final
+FROM scratch
 
-LABEL org.opencontainers.image.version=v2.9.0
+LABEL org.opencontainers.image.version=v2.10.0
 LABEL org.opencontainers.image.title=Caddy
 LABEL org.opencontainers.image.description="a powerful, enterprise-ready, open source web server with automatic HTTPS written in Go"
 LABEL org.opencontainers.image.url=https://caddyserver.com
@@ -17,8 +15,8 @@ LABEL org.opencontainers.image.vendor="Light Code Labs"
 LABEL org.opencontainers.image.licenses=Apache-2.0
 LABEL org.opencontainers.image.source="https://github.com/marte26/caddy-docker-proxy"
 
-ENV XDG_CONFIG_HOME=/config
-ENV XDG_DATA_HOME=/data
+ENV XDG_CONFIG_HOME=/config XDG_DATA_HOME=/data
+VOLUME [ "/config", "/data" ]
 
 EXPOSE 80
 EXPOSE 443
@@ -26,4 +24,5 @@ EXPOSE 443/udp
 
 COPY --from=build /caddy /caddy
 
-CMD ["/caddy", "docker-proxy"]
+ENTRYPOINT [ "/caddy" ]
+CMD [ "docker-proxy" ]
