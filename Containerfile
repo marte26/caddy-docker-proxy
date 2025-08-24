@@ -6,7 +6,7 @@ RUN go mod download && CGO_ENABLED=0 go build -ldflags "-s -w" -o /caddy
 
 FROM scratch
 
-LABEL org.opencontainers.image.version=v2.10.0
+LABEL org.opencontainers.image.version=v2.10.2
 LABEL org.opencontainers.image.title=Caddy
 LABEL org.opencontainers.image.description="a powerful, enterprise-ready, open source web server with automatic HTTPS written in Go"
 LABEL org.opencontainers.image.url=https://caddyserver.com
