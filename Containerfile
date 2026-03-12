@@ -1,4 +1,4 @@
-FROM docker.io/library/golang:1.25.7 AS build
+FROM docker.io/library/golang:1.26.1 AS build
 
 WORKDIR /app
 COPY go.mod go.sum main.go ./
@@ -6,7 +6,7 @@ RUN go mod download && CGO_ENABLED=0 go build -ldflags "-s -w" -o /caddy
 
 FROM scratch
 
-LABEL org.opencontainers.image.version=v2.11.1
+LABEL org.opencontainers.image.version=v2.11.2
 LABEL org.opencontainers.image.title=Caddy
 LABEL org.opencontainers.image.description="a powerful, enterprise-ready, open source web server with automatic HTTPS written in Go"
 LABEL org.opencontainers.image.url=https://caddyserver.com
