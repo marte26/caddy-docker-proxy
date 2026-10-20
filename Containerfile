@@ -1,4 +1,4 @@
-FROM docker.io/library/golang:1.27.1 AS build
+FROM docker.io/library/golang:1.27.3 AS build
 
 WORKDIR /app
 COPY go.mod go.sum main.go ./
